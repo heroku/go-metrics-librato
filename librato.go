@@ -1,13 +1,12 @@
 package librato
 
 import (
+	"context"
 	"fmt"
 	"log"
 	"math"
 	"regexp"
 	"time"
-
-	"golang.org/x/net/context"
 
 	"github.com/rcrowley/go-metrics"
 )
